@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+    .bebus{
+        font-family: 'Bebas Neue', sans-serif;
+    } 
+</style>
     <title>Jacket</title>
 </head>
 <body>
-    <header class="bg-[#FFFBF0]">
-        <nav class="flex items-center justify-between max-w-7xl my-0 mx-auto ">
+    <header class="bg-[#FFFBF0] max-w-7xl my-0 mx-auto ">
+        <nav class="flex items-center justify-between max-w-7xl  ">
             <div>
                 <img src="./icons/logo.png" alt="">
             </div>
@@ -21,11 +30,63 @@
                 </ul>
             </div>
         </nav>
+        <div class="flex justify-between items-center mt-20 max-w-7xl mx-auto my-10">
         <div>
-            <h1><span>Be the Penguins</span> <br>
+            <h1 class="text-9xl bebus  uppercase "><span class="text-amber-600">Be the Penguins</span> <br>
                 of Winter</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing 
+                    and typesetting industry.</p>
+            
+             <button class="btn btn-success">Success</button>
         </div>
-        <div></div>
+        <div>
+            <img src="./images/model.png" alt="">
+        </div>
+    </div>
     </header>
+    <main class="max-w-7xl my-10 mx-auto">
+        <!--women jacket section-->
+        <section>
+            <div class="text-4xl bebus  uppercase p-5 mb-10">Women Jacket</div>
+            <div class="grid grid-cols-3 gap-5">
+                <div class="drop-shadow-lg p-4">
+                    <div class=" ">
+                        <img class="bg-gray-500 rounded-lg p-5" src="./images/jacket-1.png" alt="">
+                        <h3 class="font-bold text-2xl mt-4 mb-3">Yellow Coat Jacket </h3>
+                        <p class="mb-3 text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry.</p>
+                    </div>
+                    <div class="flex justify-between items-center py-18 px-33">
+                        <h3 class="text-[#FABE4C] font-black text-3xl">$234</h3>
+                        <button class="rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] p-5">Buy Now</button>
+                    </div>
+                </div>
+                <div class="drop-shadow-lg p-4">
+                    <div>
+                        <img class="bg-gray-500 rounded-lg p-5" src="./images/jacket-2.png" alt="">
+                        <h3 class="font-bold text-2xl mt-4 mb-3">Ladies Jacket  </h3>
+                        <p class="mb-3 text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry.</p>
+                    </div>
+                    <div class="flex justify-between items-center py-18 px-33">
+                        <h3 class="text-[#FABE4C] font-black text-3xl">$234</h3>
+                        <button class="rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] p-5">Buy Now</button>
+                    </div>
+                </div>
+                <div class="drop-shadow-lg p-4" >
+                    <div>
+                        <img class="bg-gray-500 rounded-lg p-5" src="./images/jacket-3.png" alt="">
+                        <h3 class="font-bold text-2xl mt-4 mb-3">Woman Leather Jacket </h3>
+                        <p class="mb-3 text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry.</p>
+                    </div>
+                    <div class="flex justify-between items-center py-18 px-33">
+                        <h3 class="text-[#FABE4C] font-black text-3xl">$234</h3>
+                        <button class="rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] p-5">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
